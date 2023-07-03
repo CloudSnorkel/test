@@ -13,4 +13,4 @@ jobs:
     environment: dev
 
     steps:
-      - run: ls
+      - run: exit 1
