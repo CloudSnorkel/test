@@ -9,7 +9,7 @@ on:
 
 jobs:
   build:
-    runs-on: [self-hosted, lambda, x64, linux]
+    runs-on: [self-hosted, lambda, x64]
     environment: dev
 
     steps:
